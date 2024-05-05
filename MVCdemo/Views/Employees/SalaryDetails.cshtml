@@ -1,0 +1,35 @@
+@section css {
+    <link rel="stylesheet" href="~/css/Salary.css">
+}
+
+@{
+    ViewData["Title"] = "Quản lý lương ";
+}
+<div class="wrapper">
+    <header>
+
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Họ và tên</th>
+                <th>Email</th>
+                <th>Chức vụ</th>
+                <th>Bộ phận làm việc</th>
+                <th>Lương cơ bản</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (dynamic item in ViewBag.SalaryDetails)
+            {
+                <tr>
+                    <th>@item.Name</th>
+                    <th>@item.Email</th>
+                    <th>@item.Position</th>
+                    <th>@item.Department</th>
+                    <th>@item.SalaryEmployee VNĐ</th>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<MVCdemo.Models.Employee>
+
+@section css {
+    <link href="~/css/Index__Empl.css" rel="stylesheet" />
+}
+
+<div style="margin:8px">
+    <h1> <i class="fa-solid fa-tablet" style="color:antiquewhite"></i> Danh sách tất cả nhân sự </h1>
+
+    <a asp-action="Create" class="add-list"> Thêm nhân sự mới </a>
+</div>
+@{
+    ViewData["Title"] = "Nhân sự";
+}
+<form asp-controller="Employees" asp-action="Index" class="search">
+    <p>
+        Title: <input type="text" name="SearchString" placeholder="Name employee..." />
+        <input type="submit" value="Check" />
+    </p>
+</form>
+
+<div class="list-employee">
+    @foreach (var emp in Model)
+    {
+            <div class="list-items">
+                <div class="list-item-image">
+                    <img src="~/Image/@emp.UrlImage" alt="Ảnh chưa cập nhật">
+                </div>
+                <div class="list-item-info">
+                    <span >@emp.EmployeeName</span>
+                    <span >@emp.Email</span>
+                </div>
+                <br />
+                <div class="list-item-link">
+                    <a asp-action="Details" asp-route-id="@emp.EmployeeId">Chi tiết</a>
+                    <a asp-action="Delete" style="background-color:#d13639;" asp-route-id="@emp.EmployeeId">Delete</a>
+                </div>
+            </div>
+    }
+
+</div>

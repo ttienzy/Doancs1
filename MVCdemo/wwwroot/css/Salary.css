@@ -1,0 +1,31 @@
+
+.wrapper {
+    max-width: 100%;
+    height: 100vh;
+    display: block;
+    margin: 0 auto;
+    background-color: #e3e2e1;
+    position: relative;
+}
+
+table {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -50px;
+    
+}
+thead>tr>tr:first-child {
+    width: 30%;
+    text-align: center;
+}
+th {
+    padding: 8px 12px;
+}
+
+table,th {
+    border-collapse: collapse;
+    border: 1px solid black;
+}

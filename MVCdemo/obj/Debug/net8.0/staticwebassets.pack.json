@@ -1,0 +1,461 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MVCdemo.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MVCdemo.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\1.1.jpg",
+      "PackagePath": "staticwebassets\\Image\\1.1.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\1.webp",
+      "PackagePath": "staticwebassets\\Image\\1.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\130ae9078bf59396a1296fd3b95eb8ed0444e3e888a34edbda42689b684a488d_20004-23-45.webp",
+      "PackagePath": "staticwebassets\\Image\\130ae9078bf59396a1296fd3b95eb8ed0444e3e888a34edbda42689b684a488d_20004-23-45.webp"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\2.1.jpg",
+      "PackagePath": "staticwebassets\\Image\\2.1.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\2.jpg",
+      "PackagePath": "staticwebassets\\Image\\2.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\3.1.png",
+      "PackagePath": "staticwebassets\\Image\\3.1.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\3.jpg",
+      "PackagePath": "staticwebassets\\Image\\3.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\4.1.jpg",
+      "PackagePath": "staticwebassets\\Image\\4.1.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\4.jpg",
+      "PackagePath": "staticwebassets\\Image\\4.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\5.1.jpg",
+      "PackagePath": "staticwebassets\\Image\\5.1.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\BubbleSort05-37-03.png",
+      "PackagePath": "staticwebassets\\Image\\BubbleSort05-37-03.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\LOGOMain.png",
+      "PackagePath": "staticwebassets\\Image\\LOGOMain.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\LOGOWEB.png",
+      "PackagePath": "staticwebassets\\Image\\LOGOWEB.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\Screenshot 2023-12-04 20553406-57-15.png",
+      "PackagePath": "staticwebassets\\Image\\Screenshot 2023-12-04 20553406-57-15.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\Screenshot 2023-12-06 21335406-55-53.png",
+      "PackagePath": "staticwebassets\\Image\\Screenshot 2023-12-06 21335406-55-53.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\Screenshot 2023-12-06 21341006-37-04.png",
+      "PackagePath": "staticwebassets\\Image\\Screenshot 2023-12-06 21341006-37-04.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\addCus03-19-03.png",
+      "PackagePath": "staticwebassets\\Image\\addCus03-19-03.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-05-03.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-05-03.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-06-00.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-06-00.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-06-05.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-06-05.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-06-46.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-06-46.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-11-51.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-11-51.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-11-53.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-11-53.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\b104-11-56.jpg",
+      "PackagePath": "staticwebassets\\Image\\b104-11-56.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\cal.jpg",
+      "PackagePath": "staticwebassets\\Image\\cal.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\chart02-24-43.png",
+      "PackagePath": "staticwebassets\\Image\\chart02-24-43.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\chart03-10-41.png",
+      "PackagePath": "staticwebassets\\Image\\chart03-10-41.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\chart04-12-33.png",
+      "PackagePath": "staticwebassets\\Image\\chart04-12-33.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\daidien.jpg",
+      "PackagePath": "staticwebassets\\Image\\daidien.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\family.jpg",
+      "PackagePath": "staticwebassets\\Image\\family.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\form04-19-21.jpg",
+      "PackagePath": "staticwebassets\\Image\\form04-19-21.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\form08-47-11.jpg",
+      "PackagePath": "staticwebassets\\Image\\form08-47-11.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\form10-58-58.jpg",
+      "PackagePath": "staticwebassets\\Image\\form10-58-58.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\java01-47-10.jpg",
+      "PackagePath": "staticwebassets\\Image\\java01-47-10.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\java04-23-06.jpg",
+      "PackagePath": "staticwebassets\\Image\\java04-23-06.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\java04-24-02.jpg",
+      "PackagePath": "staticwebassets\\Image\\java04-24-02.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\lamboghini09-03-00.jpg",
+      "PackagePath": "staticwebassets\\Image\\lamboghini09-03-00.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\memetitle03-15-23.jpg",
+      "PackagePath": "staticwebassets\\Image\\memetitle03-15-23.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\my childhood.jpg",
+      "PackagePath": "staticwebassets\\Image\\my childhood.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\my childhood2.jpg",
+      "PackagePath": "staticwebassets\\Image\\my childhood2.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\screenshot_1712999742.png",
+      "PackagePath": "staticwebassets\\Image\\screenshot_1712999742.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\west03-43-25.png",
+      "PackagePath": "staticwebassets\\Image\\west03-43-25.png"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\Image\\z5312257859447_a0a7fcbc51162e4dd75a3beb18581b30.jpg",
+      "PackagePath": "staticwebassets\\Image\\z5312257859447_a0a7fcbc51162e4dd75a3beb18581b30.jpg"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\css\\Add__Emp.css",
+      "PackagePath": "staticwebassets\\css\\Add__Emp.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\css\\Details.css",
+      "PackagePath": "staticwebassets\\css\\Details.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\css\\Homepage.css",
+      "PackagePath": "staticwebassets\\css\\Homepage.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\css\\Index__Empl.css",
+      "PackagePath": "staticwebassets\\css\\Index__Empl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\css\\Salary.css",
+      "PackagePath": "staticwebassets\\css\\Salary.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\js\\index.js",
+      "PackagePath": "staticwebassets\\js\\index.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\js\\select.js",
+      "PackagePath": "staticwebassets\\js\\select.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\CSharp\\MVCdemo\\MVCdemo\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MVCdemo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MVCdemo.props",
+      "PackagePath": "build\\MVCdemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MVCdemo.props",
+      "PackagePath": "buildMultiTargeting\\MVCdemo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MVCdemo.props",
+      "PackagePath": "buildTransitive\\MVCdemo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

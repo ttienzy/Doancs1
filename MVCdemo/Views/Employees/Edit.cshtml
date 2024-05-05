@@ -1,0 +1,85 @@
+﻿@model MVCdemo.Models.Employee
+
+@{
+    ViewData["Title"] = "Edit";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/Add__Emp.css" />
+}
+<h1>Edit</h1>
+
+<h4>Employee</h4>
+<hr />
+
+<div class="wrapper">
+    <form asp-controller="Employees" asp-action="Edit" enctype="multipart/form-data">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="form-group">
+            <label asp-for="EmployeeName" class="control-label"></label>
+            <input asp-for="EmployeeName" class="form-control" />
+            <span asp-validation-for="EmployeeName" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="formFile" class="control-label"></label>
+            <input asp-for="formFile" accept="image/*" />
+            <span asp-validation-for="formFile" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EmployeeEthnic" class="control-label"></label>
+            <input asp-for="EmployeeEthnic" class="form-control" />
+            <span asp-validation-for="EmployeeEthnic" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EmployeeGender" class="control-label"></label>
+            <input asp-for="EmployeeGender" class="form-control" />
+            <span asp-validation-for="EmployeeGender" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="nativeland" class="control-label"></label>
+            <input asp-for="nativeland" class="form-control" />
+            <span asp-validation-for="nativeland" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EmployeePhone" class="control-label"></label>
+            <input asp-for="EmployeePhone" class="form-control" />
+            <span asp-validation-for="EmployeePhone" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="Email" class="control-label"></label>
+            <input asp-for="Email" class="form-control" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="PositionID" class="control-label"></label>
+            @* <select asp-for="PositionID" class="form-control" asp-items="ViewBag.PositionID"></select> *@
+            @Html.DropDownList("PositionID", ViewData["PositionID"] as SelectList,
+                     new { @class = "control-labels" })
+            @Html.ValidationMessageFor(model => model.PositionID, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            <label asp-for="LevelSalary" class="control-label"></label>
+            @* <select asp-for="LevelSalary" class="form-control" asp-items="ViewBag.LevelSalary"></select> *@
+            @Html.DropDownList("LevelSalary", ViewData["LevelSalary"] as SelectList,
+                     new { @class = "control-labels" })
+            @Html.ValidationMessageFor(model => model.LevelSalary, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group">
+            <label asp-for="DepartmentID" class="control-label"></label>
+            @* <select asp-for="DepartmentID" class ="form-control" asp-items="ViewBag.DepartmentID"></select> *@
+            @Html.DropDownList("DepartmentID", ViewData["DepartmentID"] as SelectList,
+                     new { @class = "control-labels" })
+            @Html.ValidationMessageFor(model => model.DepartmentID, "", new { @class = "text-danger" })
+        </div>
+        <div class="form-group-submit">
+            <input type="submit" value="Edit" class="btn btn-primary" />
+        </div>
+        <div class="form-group-index">
+            <a asp-action="Index"> &lt;= Back to List</a>
+        </div>
+    </form>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

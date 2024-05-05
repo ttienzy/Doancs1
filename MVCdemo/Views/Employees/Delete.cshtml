@@ -1,0 +1,77 @@
+﻿@model MVCdemo.Models.Employee
+
+@{
+    ViewData["Title"] = "Delete";
+    string? gender = "";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/Details.css" />
+}
+
+@if (Model.EmployeeGender == 1)
+{
+    gender = "Male";
+}
+else
+{
+    gender = "Female";
+}
+<h1>Are you sure you want to delete this?</h1>
+
+<div class="wrapper">
+    <div class="body">
+        <div class="left-img">
+            <img src="~/Image/@Model.UrlImage" alt="">
+        </div>
+        <div class="right-info">
+            <div class="info-group">
+                <label asp-for="EmployeeId"></label>
+                <b>: @Model.EmployeeId</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="EmployeeName"></label>
+                <b>: @Model.EmployeeName</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="EmployeeEthnic"></label>
+                <b>: @Model.EmployeeEthnic</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="EmployeeGender"></label>
+                <b>: @gender</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="nativeland"></label>
+                <b>: @Model.nativeland</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="Email"></label>
+                <b>: @Model.Email</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="EmployeePhone"></label>
+                <b>: @Model.EmployeePhone</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="EmployeeName"></label>
+                <b>: @Model.EmployeeName</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="position.PositionName"></label>
+                <b>: @Model.position.PositionName</b>
+            </div>
+            <div class="info-group">
+                <label asp-for="department.DepartmentName"></label>
+                <b>: @Model.department.DepartmentName-@Model.department.DepartmentAddress</b>
+            </div>
+        </div>
+    </div>
+    <form asp-action="Delete" class="info-group-link">
+        <input type="hidden" asp-for="EmployeeId" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Back to List</a>
+    </form>
+</div>
+
+
+
