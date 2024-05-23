@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+
+<script>
+window.onload = function() {
+
+var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title: {
+		text: "% lương cơ bản của các ví trí trong công ty"
+	},
+	data: [{//1717000000
+		type: "pie",
+		startAngle: 240,
+		yValueFormatString: "##0.00\"%\"",
+		indexLabel: "{label} {y}",
+		dataPoints: [
+			{y: 5000000/17170000, label: "Intern"},
+			{y: 8000000/17170000, label: "Fresher"},
+			{y: 10000000/17170000, label: "Junior"},
+			{y: 15000000/17170000, label: "Middle"},
+			{y: 20000000/17170000, label: "Senior"},
+            {y: 35000000/17170000, label: "Leader"},
+			{y: 50000000/17170000, label: "Management"},
+			{y: 100000000/17170000, label: "Deputy Director"},
+			{y: 500000000/17170000, label: "Director"},
+			{y: 1000000000/17170000, label: "President"}
+		]
+	}]
+});
+chart.render();
+
+}
+</script>
+
+<body>
+<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+</html>

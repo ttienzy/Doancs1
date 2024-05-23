@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ using NuGet.Protocol;
 
 namespace MVCdemo.Controllers
 {
+    [Authorize]
     public class EmployeesController : Controller
     {
         private readonly HumanResourceManagementContext _context;
@@ -43,7 +45,6 @@ namespace MVCdemo.Controllers
         [HttpGet]
         public async Task<IActionResult> SalaryDetails()
         {
-
             var salaryDetails = from emp in _context.Employees
                                 join sal in _context.Salarys on emp.LevelSalary equals sal.LevelSalary
                                 join dep in _context.Departments on emp.DepartmentID equals dep.DepartmentID
@@ -55,9 +56,95 @@ namespace MVCdemo.Controllers
                                     Position = pos.PositionName,
                                     Department = $"{dep.DepartmentName}-{dep.DepartmentAddress}",
                                     SalaryEmployee = sal.BasicSalary,
+                                    Coefficient = sal.CoefficientsSalary,
                                 };
-            ViewBag.SalaryDetails = await salaryDetails.ToListAsync();
-            return View();
+            ViewBag.Details = await salaryDetails.SumAsync(s => s.SalaryEmployee * s.Coefficient);
+            ViewBag.NumberEmp = await salaryDetails.Select(s => s.Name).CountAsync();
+            return View(await salaryDetails.ToListAsync());
+        }
+        [HttpGet]
+        public async Task<IActionResult> Khu_D()
+        {
+
+            var salaryDetails = from emp in _context.Employees
+                                join sal in _context.Salarys on emp.LevelSalary equals sal.LevelSalary
+                                join dep in _context.Departments on emp.DepartmentID equals dep.DepartmentID
+                                join pos in _context.Positions on emp.PositionID equals pos.PositionId
+                                where dep.DepartmentName == "Khu D"
+                                select new
+                                {
+                                    Name = emp.EmployeeName,
+                                    Email = emp.Email,
+                                    Position = pos.PositionName,
+                                    Department = $"{dep.DepartmentName}-{dep.DepartmentAddress}",
+                                    SalaryEmployee = sal.BasicSalary,
+                                };
+            ViewBag.Khu_D = await salaryDetails.SumAsync(s => s.SalaryEmployee);
+            ViewBag.NumberEmpKhu_D = await salaryDetails.Select(s => s.Name).CountAsync();
+            return View(await salaryDetails.ToListAsync());
+        }
+        [HttpGet]
+        public async Task<IActionResult> Khu_A()
+        {
+
+            var salaryDetails = from emp in _context.Employees
+                                join sal in _context.Salarys on emp.LevelSalary equals sal.LevelSalary
+                                join dep in _context.Departments on emp.DepartmentID equals dep.DepartmentID
+                                join pos in _context.Positions on emp.PositionID equals pos.PositionId
+                                where dep.DepartmentName == "Khu A"
+                                select new
+                                {
+                                    Name = emp.EmployeeName,
+                                    Email = emp.Email,
+                                    Position = pos.PositionName,
+                                    Department = $"{dep.DepartmentName}-{dep.DepartmentAddress}",
+                                    SalaryEmployee = sal.BasicSalary,
+                                };
+            ViewBag.Khu_A = await salaryDetails.SumAsync(s => s.SalaryEmployee);
+            ViewBag.NumberEmpKhu_A = await salaryDetails.Select(s => s.Name).CountAsync();
+            return View(await salaryDetails.ToListAsync());
+        }
+        [HttpGet]
+        public async Task<IActionResult> Khu_B()
+        {
+
+            var salaryDetails = from emp in _context.Employees
+                                join sal in _context.Salarys on emp.LevelSalary equals sal.LevelSalary
+                                join dep in _context.Departments on emp.DepartmentID equals dep.DepartmentID
+                                join pos in _context.Positions on emp.PositionID equals pos.PositionId
+                                where dep.DepartmentName == "Khu B"
+                                select new
+                                {
+                                    Name = emp.EmployeeName,
+                                    Email = emp.Email,
+                                    Position = pos.PositionName,
+                                    Department = $"{dep.DepartmentName}-{dep.DepartmentAddress}",
+                                    SalaryEmployee = sal.BasicSalary,
+                                };
+            ViewBag.Khu_B = await salaryDetails.SumAsync(s => s.SalaryEmployee);
+            ViewBag.NumberEmpKhu_B = await salaryDetails.Select(s => s.Name).CountAsync();
+            return View(await salaryDetails.ToListAsync());
+        }
+        [HttpGet]
+        public async Task<IActionResult> Khu_C()
+        {
+
+            var salaryDetails = from emp in _context.Employees
+                                join sal in _context.Salarys on emp.LevelSalary equals sal.LevelSalary
+                                join dep in _context.Departments on emp.DepartmentID equals dep.DepartmentID
+                                join pos in _context.Positions on emp.PositionID equals pos.PositionId
+                                where dep.DepartmentName == "Khu C"
+                                select new
+                                {
+                                    Name = emp.EmployeeName,
+                                    Email = emp.Email,
+                                    Position = pos.PositionName,
+                                    Department = $"{dep.DepartmentName}-{dep.DepartmentAddress}",
+                                    SalaryEmployee = sal.BasicSalary,
+                                };
+            ViewBag.Khu_C = await salaryDetails.SumAsync(s => s.SalaryEmployee);
+            ViewBag.NumberEmpKhu_C = await salaryDetails.Select(s => s.Name).CountAsync();
+            return View(await salaryDetails.ToListAsync());
         }
 
         // GET: Employees

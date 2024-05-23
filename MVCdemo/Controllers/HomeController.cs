@@ -1,7 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MVCdemo.Controllers
 {
+    //[Authorize]
     public class HomeController : Controller
     {
         public readonly ILogger<HomeController> _logger;

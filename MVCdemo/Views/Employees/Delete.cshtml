@@ -16,7 +16,7 @@ else
 {
     gender = "Female";
 }
-<h1>Are you sure you want to delete this?</h1>
+<h1>Kết thúc hợp đồng với nhân viên này ?</h1>
 
 <div class="wrapper">
     <div class="body">
@@ -24,10 +24,6 @@ else
             <img src="~/Image/@Model.UrlImage" alt="">
         </div>
         <div class="right-info">
-            <div class="info-group">
-                <label asp-for="EmployeeId"></label>
-                <b>: @Model.EmployeeId</b>
-            </div>
             <div class="info-group">
                 <label asp-for="EmployeeName"></label>
                 <b>: @Model.EmployeeName</b>
@@ -68,10 +64,8 @@ else
     </div>
     <form asp-action="Delete" class="info-group-link">
         <input type="hidden" asp-for="EmployeeId" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <input type="submit" value="Hủy hợp đồng" class="btn btn-danger"
+            style="border-radius: 8px;background:blue;,padding:0px 8px;" />
         <a asp-action="Index">Back to List</a>
     </form>
 </div>
-
-
-

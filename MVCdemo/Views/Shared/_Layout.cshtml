@@ -8,6 +8,7 @@
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="~/Image/LOGOWEB.png">
+    @* <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" /> *@
     <title>@ViewData["Title"]</title>
     <link rel="stylesheet" href="~/css/Homepage.css">
     @await RenderSectionAsync("css", required: false)
@@ -31,7 +32,7 @@
     </header>
     <div class="hapodigital-header">
         <div class="logo">
-            <img src="Image/LOGOMain.png" alt="">
+            <img src="~/Image/LOGOMain.png" alt="">
         </div>
         <nav class="navigation-menu">
             <ul>
@@ -44,8 +45,8 @@
                 <li>
                     <a asp-controller="Employees" asp-action="SalaryDetails">Tính lương</a>
                 </li>
-                <li><a href="#">Chấm công</a></li>
-                <li><a href="#">Liên Hệ</a></li>
+                <partial name="_LoginPartical" />
+
             </ul>
         </nav>
     </div>
@@ -61,6 +62,9 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     <script src="~/js/index.js"></script>
+    @* <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js"
+    integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> *@
     @await RenderSectionAsync("Scripts", required: false)
 
 </body>

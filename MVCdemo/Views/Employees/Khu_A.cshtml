@@ -1,0 +1,53 @@
+@model IEnumerable<dynamic>
+@section css {
+    <link rel="stylesheet" href="~/css/Salary.css">
+}
+
+@{
+    ViewData["Title"] = "Quản lý lương ";
+}
+<div class="wrapper">
+    <header class="header-salary">
+        <ul class="nav-salary">
+            <li class="nav-salary-item"><a asp-action="SalaryDetails">Tất cả <i
+                        class="fa-solid fa-users"></i>@ViewBag.NumberEmp</a></li>
+            <li class="nav-salary-item"><a asp-action="Khu_A">Khu A <i
+                        class="fa-solid fa-users"></i>@ViewBag.NumberEmpKhu_A</a></li>
+            <li class="nav-salary-item"><a asp-action="Khu_B">Khu B <i
+                        class="fa-solid fa-users"></i>@ViewBag.NumberEmpKhu_B</a></li>
+            <li class="nav-salary-item"><a asp-action="Khu_C">Khu C <i
+                        class="fa-solid fa-users"></i>@ViewBag.NumberEmpKhu_C</a></li>
+            <li class="nav-salary-item"><a asp-action="Khu_D">Khu D <i
+                        class="fa-solid fa-users"></i>@ViewBag.NumberEmpKhu_D</a></li>
+        </ul>
+    </header>
+    <table>
+        <thead>
+            <tr>
+                <th>Họ và tên</th>
+                <th>Email</th>
+                <th>Chức vụ</th>
+                <th>Bộ phận làm việc</th>
+                <th>Lương cơ bản</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (dynamic item in Model)
+            {
+                <tr>
+                    <th>@item.Name</th>
+                    <th>@item.Email</th>
+                    <th>@item.Position</th>
+                    <th>@item.Department</th>
+                    <th>@item.SalaryEmployee VNĐ</th>
+                </tr>
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="4">Tổng số tiền trả cho nhân viên là: </th>
+                <th colspan="1">@ViewBag.Khu_A VNĐ</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>

@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\CSharp\MVCdemo\MVCdemo
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/CSharp/MVCdemo/MVCdemo/Views/Account/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp/MVCdemo/MVCdemo/Views/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CSharp/MVCdemo/MVCdemo/Views/Employees/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,12 +54,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CSharp/MVCdemo/MVCdemo/Views/Employees/Khu_A.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEtodV9BLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp/MVCdemo/MVCdemo/Views/Employees/Khu_B.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEtodV9CLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp/MVCdemo/MVCdemo/Views/Employees/Khu_C.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEtodV9DLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp/MVCdemo/MVCdemo/Views/Employees/Khu_D.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEtodV9ELmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CSharp/MVCdemo/MVCdemo/Views/Employees/SalaryDetails.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXFNhbGFyeURldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSharp/MVCdemo/MVCdemo/Views/Home/Homepage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lcGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CSharp/MVCdemo/MVCdemo/Views/Shared/_LoginPartical.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpY2FsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CSharp/MVCdemo/MVCdemo/Views/Shared/_ValidationScriptsPartial.cshtml]

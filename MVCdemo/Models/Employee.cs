@@ -10,24 +10,29 @@ namespace MVCdemo.Models
 
         [Required]
         [StringLength(50)]
+        [Display(Name = "Tên nhân viên")]
         public string? EmployeeName { get; set; }
 
         [StringLength(50)]
+        [Display(Name = "Dân tộc")]
         public string? EmployeeEthnic { get; set; }
 
-        [Range(0,1,ErrorMessage = "Male = 1 and Female = 0")]
+        [Range(0, 1, ErrorMessage = "Male = 1 and Female = 0")]
+        [Display(Name = "Giới tính")]
         public int EmployeeGender { get; set; }
 
-        [Display(Name = "Nativeland")]
+        [Display(Name = "Quê quán")]
+
         [StringLength(50)]
-        public string? nativeland { get; set;}
+        public string? nativeland { get; set; }
 
         [DataType(DataType.PhoneNumber)]
         [Required]
+        [Display(Name = "Số điện thoại")]
         public string EmployeePhone { get; set; }
-        
+
         [EmailAddress]
-        [Display(Name = "EMAIL")]
+        [Display(Name = "Địa chỉ Email")]
         public string Email { set; get; }
 
         [Display(Name = "Position")]
@@ -50,7 +55,7 @@ namespace MVCdemo.Models
         public string? UrlImage { get; set; }
 
         [NotMapped]
-        [Display(Name = "UpLoad Image")]
+        [Display(Name = "Ảnh của bạn")]
         public IFormFile formFile { get; set; } = default!;
 
     }

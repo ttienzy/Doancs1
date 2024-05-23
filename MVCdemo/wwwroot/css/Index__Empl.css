@@ -71,14 +71,15 @@
     gap:12px;
 }
 .search {
-    text-align:center;
+    text-align:left;
+    margin-left: 8px;
 }
 .search > p {
-    font-size:25px;
+    font-size:20px;
 }
 .search > p > input {
-    font-size:25px;
+    font-size:20px;
     padding:4px 12px;
-    border-radius:8px;
+    border-radius:4px;
     outline-color:aqua;
 }

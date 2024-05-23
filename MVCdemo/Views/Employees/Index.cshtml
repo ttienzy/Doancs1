@@ -14,28 +14,28 @@
 }
 <form asp-controller="Employees" asp-action="Index" class="search">
     <p>
-        Title: <input type="text" name="SearchString" placeholder="Name employee..." />
-        <input type="submit" value="Check" />
+        Họ và tên : <input type="text" name="SearchString" placeholder="Name employee..." />
+        <input type="submit" value="Kiểm tra" />
     </p>
 </form>
 
 <div class="list-employee">
     @foreach (var emp in Model)
     {
-            <div class="list-items">
-                <div class="list-item-image">
-                    <img src="~/Image/@emp.UrlImage" alt="Ảnh chưa cập nhật">
-                </div>
-                <div class="list-item-info">
-                    <span >@emp.EmployeeName</span>
-                    <span >@emp.Email</span>
-                </div>
-                <br />
-                <div class="list-item-link">
-                    <a asp-action="Details" asp-route-id="@emp.EmployeeId">Chi tiết</a>
-                    <a asp-action="Delete" style="background-color:#d13639;" asp-route-id="@emp.EmployeeId">Delete</a>
-                </div>
+        <div class="list-items">
+            <div class="list-item-image">
+                <img src="~/Image/@emp.UrlImage" alt="Ảnh chưa cập nhật">
             </div>
+            <div class="list-item-info">
+                <span>@emp.EmployeeName</span>
+                <span>@emp.Email</span>
+            </div>
+            <br />
+            <div class="list-item-link">
+                <a asp-action="Details" asp-route-id="@emp.EmployeeId">Chi tiết</a>
+                <a asp-action="Delete" style="background-color:#d13639;" asp-route-id="@emp.EmployeeId">Delete</a>
+            </div>
+        </div>
     }
 
 </div>

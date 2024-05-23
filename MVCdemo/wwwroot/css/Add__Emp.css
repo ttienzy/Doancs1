@@ -1,7 +1,11 @@
 ﻿h1 {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
     text-align:center;
-    padding: 12px;
+    padding: 24px;
     color : dimgray;
+    border-bottom: 2px solid dimgray;
 }
 hr {
     width:60%;
@@ -11,6 +15,7 @@ hr {
 
 .wrapper {
     max-width:100%;
+    margin-top: 24px;
 }
 
 .wrapper>form {
@@ -51,6 +56,7 @@ hr {
     background-color:#0b57d0;
     border : 1px solid none;
     color :aliceblue;
+    font-size: 24px;
 }
 .form-group-index {
     display :block;
